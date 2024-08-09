@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "conn")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/conn.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/rp_pico/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "ics_custom")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/ics_custom.kicad_sym")(options "")(descr ""))
+)
