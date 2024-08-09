@@ -2185,6 +2185,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part" " ADUM4160BRWZ-RL"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shop" "https://eu.mouser.com/ProductDetail/Analog-Devices/ADUM4160BRWZ-RL?qs=WIvQP4zGaniP0FyiFgFlCw%3D%3D"
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "3945bac1-d880-492c-b051-23112eee5b5d")
 		)
@@ -2252,7 +2270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2125635b-e438-4ac0-b2f5-b516691fc40b")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR081"
 			(at 177.8 120.65 0)
 			(effects
 				(font
@@ -2303,7 +2321,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
-					(reference "#PWR075")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -2319,7 +2337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "251cf642-2edd-406f-bd10-8a8207984cbd")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR078"
 			(at 137.16 129.54 0)
 			(effects
 				(font
@@ -2370,7 +2388,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
-					(reference "#PWR072")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -2386,7 +2404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "255dfb56-1c68-49cc-bbe6-eaf2665ae444")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR077"
 			(at 109.22 96.52 0)
 			(effects
 				(font
@@ -2437,7 +2455,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
-					(reference "#PWR071")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -2452,7 +2470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2faadd27-cd39-4908-8bd0-37b2efe98347")
-		(property "Reference" "J15"
+		(property "Reference" "J18"
 			(at 184.15 97.79 0)
 			(effects
 				(font
@@ -2556,6 +2574,15 @@
 				(justify left)
 			)
 		)
+		(property "Part" "Header_01x05"
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88c07ba6-6748-4215-89a9-4bed5312e7cc")
 		)
@@ -2574,7 +2601,7 @@
 		(instances
 			(project ""
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
-					(reference "J15")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30048a44-c0e5-4c95-8dc0-e94c22d0fce1")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR079"
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -2642,7 +2669,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
-					(reference "#PWR073")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2850,7 +2877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be52fd2a-0d63-4fff-8441-931f234de95f")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR080"
 			(at 175.26 80.01 0)
 			(effects
 				(font
@@ -2900,7 +2927,7 @@
 		(instances
 			(project ""
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
-					(reference "#PWR074")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -2915,7 +2942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be9a3398-f1b2-4f23-aa41-74a7667ac4b4")
-		(property "Reference" "J14"
+		(property "Reference" "J17"
 			(at 95.25 87.63 0)
 			(effects
 				(font
@@ -2958,6 +2985,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "TODO USB_B"
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "affbc52b-075f-4525-8d71-0b2b98d4efaf")
 		)
@@ -2976,7 +3012,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
-					(reference "J14")
+					(reference "J17")
 					(unit 1)
 				)
 			)
