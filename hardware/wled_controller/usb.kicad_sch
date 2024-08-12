@@ -1545,6 +1545,12 @@
 		(uuid "12af718c-3b2d-4d49-9d29-890a6b692d47")
 	)
 	(junction
+		(at 109.22 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1674dfda-10c3-44c3-a218-a0f687100d4f")
+	)
+	(junction
 		(at 116.84 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1620,6 +1626,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 105.41) (xy 167.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d89184e-fa2f-4d4a-9298-413abda90112")
+	)
+	(wire
+		(pts
 			(xy 93.98 111.76) (xy 92.71 111.76)
 		)
 		(stroke
@@ -1650,6 +1666,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 121.92) (xy 128.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14053f81-d99d-4a1b-ad89-335c48426342")
+	)
+	(wire
+		(pts
 			(xy 149.86 95.25) (xy 149.86 77.47)
 		)
 		(stroke
@@ -1657,6 +1683,16 @@
 			(type default)
 		)
 		(uuid "16a2115a-5b79-47a1-880b-474d51165238")
+	)
+	(wire
+		(pts
+			(xy 146.05 105.41) (xy 165.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18dca481-c53f-45aa-907d-76401623d6b9")
 	)
 	(wire
 		(pts
@@ -1720,13 +1756,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 105.41) (xy 179.07 105.41)
+			(xy 167.64 105.41) (xy 165.1 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fca740e-3e8b-4adf-ba40-edea45df33aa")
+		(uuid "3c6e8e8f-04e9-4cbc-b9d9-c66ca9c9b047")
 	)
 	(wire
 		(pts
@@ -1750,7 +1786,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 105.41) (xy 110.49 102.87)
+			(xy 111.76 105.41) (xy 111.76 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1800,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 105.41) (xy 110.49 105.41)
+			(xy 120.65 105.41) (xy 111.76 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1860,7 +1896,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 100.33) (xy 113.03 100.33)
+			(xy 102.87 100.33) (xy 114.3 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1870,7 +1906,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 102.87) (xy 120.65 102.87)
+			(xy 114.3 102.87) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1930,7 +1966,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 102.87) (xy 102.87 102.87)
+			(xy 111.76 102.87) (xy 102.87 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1947,6 +1983,16 @@
 			(type default)
 		)
 		(uuid "afbd3fae-53cd-431e-b93f-6a5e12caea4b")
+	)
+	(wire
+		(pts
+			(xy 167.64 102.87) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a4fa4c-4988-4148-9532-959b7fedc29a")
 	)
 	(wire
 		(pts
@@ -1970,7 +2016,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 100.33) (xy 113.03 102.87)
+			(xy 146.05 102.87) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0abe2d-4470-427c-97c9-331a076fe40b")
+	)
+	(wire
+		(pts
+			(xy 114.3 100.33) (xy 114.3 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1997,16 +2053,6 @@
 			(type default)
 		)
 		(uuid "d314c375-5293-46ac-94b6-ed34b5fd030a")
-	)
-	(wire
-		(pts
-			(xy 146.05 102.87) (xy 179.07 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5161a7a-e348-455e-9dc2-72b6de01b871")
 	)
 	(wire
 		(pts
@@ -2060,13 +2106,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 87.63) (xy 109.22 90.17)
+			(xy 109.22 87.63) (xy 109.22 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8191f90-4980-4961-9b2a-310e349587e3")
+	)
+	(wire
+		(pts
+			(xy 179.07 105.41) (xy 167.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd2300a-2032-436c-af5b-f57c408c7753")
 	)
 	(wire
 		(pts
@@ -2110,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 121.92) (xy 128.27 121.92)
+			(xy 93.98 121.92) (xy 109.22 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15df4562-c508-426d-9dc0-ca525e1c79b6")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 138.0841 87.63 0)
 			(effects
 				(font
@@ -2185,7 +2241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" " ADUM4160BRWZ-RL"
+		(property "Part" "ADUM4160BRWZ"
 			(at 133.35 105.41 0)
 			(effects
 				(font
@@ -2194,7 +2250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Shop" "https://eu.mouser.com/ProductDetail/Analog-Devices/ADUM4160BRWZ-RL?qs=WIvQP4zGaniP0FyiFgFlCw%3D%3D"
+		(property "Shop" "https://www.tme.eu/bg/details/0105-05/sediniteli-din/lumberg/0105-05/"
 			(at 133.35 105.41 0)
 			(effects
 				(font
@@ -2254,7 +2310,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2395,73 +2451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "255dfb56-1c68-49cc-bbe6-eaf2665ae444")
-		(property "Reference" "#PWR077"
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc51dee3-f3e8-46f3-8e5a-8c9a65a6ba62")
-		)
-		(instances
-			(project "wled_controller"
-				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "conn:Conn_01x05")
 		(at 184.15 102.87 0)
 		(unit 1)
@@ -2525,7 +2514,7 @@
 				(justify left)
 			)
 		)
-		(property "Purpose Pin2" "D-"
+		(property "Purpose Pin2" "D+"
 			(at 184.15 105.41 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2535,7 +2524,7 @@
 				(justify left)
 			)
 		)
-		(property "Purpose Pin3" "D+"
+		(property "Purpose Pin3" "D-"
 			(at 184.15 102.87 0)
 			(do_not_autoplace yes)
 			(effects

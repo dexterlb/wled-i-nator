@@ -1,4 +1,4 @@
-(footprint "57PC5F"
+(footprint "DIN5_57PC5F"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "57PC5F"
+	(property "Value" "DIN5_57PC5F"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -2023,7 +2023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 107.95 133.35 0)
 			(effects
 				(font
@@ -2149,7 +2149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 107.95 34.29 0)
 			(effects
 				(font
@@ -2212,7 +2212,7 @@
 				(justify left)
 			)
 		)
-		(property "Shop" "https://store.comet.bg/Catalogue/Product/45041/, https://store.comet.bg/Catalogue/Product/45029/"
+		(property "Shop" "https://store.comet.bg/Catalogue/Product/45034/, https://store.comet.bg/Catalogue/Product/45029/"
 			(at 107.95 34.29 0)
 			(effects
 				(font
@@ -2221,7 +2221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "15EDGVC-3.5-03P-14-00Z(H), 15EDGKA-3.5-03P-14-100AH"
+		(property "Part" "15EDGRC-3.5-03P-14-00AH, 15EDGKA-3.5-03P-14-100AH"
 			(at 107.95 34.29 0)
 			(effects
 				(font
@@ -2606,7 +2606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 187.96 83.82 0)
 			(effects
 				(font
@@ -3256,7 +3256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 107.95 67.31 0)
 			(effects
 				(font
@@ -3382,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 187.96 50.8 0)
 			(effects
 				(font
@@ -3573,7 +3573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -3896,7 +3896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 107.95 50.8 0)
 			(effects
 				(font
@@ -4087,7 +4087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 107.95 116.84 0)
 			(effects
 				(font
@@ -4213,7 +4213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 187.96 116.84 0)
 			(effects
 				(font
@@ -4339,7 +4339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -4532,7 +4532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 187.96 34.29 0)
 			(effects
 				(font
@@ -4857,7 +4857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 187.96 67.31 0)
 			(effects
 				(font
@@ -4983,7 +4983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 107.95 166.37 0)
 			(effects
 				(font
@@ -5241,7 +5241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 107.95 149.86 0)
 			(effects
 				(font
@@ -5367,7 +5367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x03_P3.50mm_Vertical"
+		(property "Footprint" "conn:TerminalBlock_Degson_1x03_P3.50mm_Horizontal"
 			(at 107.95 83.82 0)
 			(effects
 				(font
@@ -5867,7 +5867,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 144.78)
+		(at 57.15 128.27)
 		(size 36.83 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -5879,7 +5879,7 @@
 		)
 		(uuid "161eda3a-a4fd-4007-ada3-842e8d15f474")
 		(property "Sheetname" "WLED driver 8"
-			(at 57.15 144.0684 0)
+			(at 57.15 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5888,7 @@
 			)
 		)
 		(property "Sheetfile" "wled_driver.kicad_sch"
-			(at 57.15 155.5246 0)
+			(at 57.15 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5897,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 57.15 147.32 180)
+			(at 57.15 130.81 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +5907,7 @@
 			(uuid "2cc114e6-34d1-4b94-b06a-fe5cc8e10800")
 		)
 		(pin "DIN" input
-			(at 57.15 152.4 180)
+			(at 57.15 135.89 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +5917,7 @@
 			(uuid "c37f2d80-f01e-4953-acf5-ba9c7fb157fc")
 		)
 		(pin "DOUT" output
-			(at 93.98 149.86 0)
+			(at 93.98 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +6003,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 78.74)
+		(at 57.15 161.29)
 		(size 36.83 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -6015,7 +6015,7 @@
 		)
 		(uuid "288eccef-95c9-408a-a3dc-6fe6e99a6fba")
 		(property "Sheetname" "WLED driver 4"
-			(at 57.15 78.0284 0)
+			(at 57.15 160.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6024,7 @@
 			)
 		)
 		(property "Sheetfile" "wled_driver.kicad_sch"
-			(at 57.15 89.4846 0)
+			(at 57.15 172.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6033,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 57.15 81.28 180)
+			(at 57.15 163.83 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6043,7 @@
 			(uuid "eaf7ecca-668b-46ed-b40b-af0756c837d1")
 		)
 		(pin "DIN" input
-			(at 57.15 86.36 180)
+			(at 57.15 168.91 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6053,7 @@
 			(uuid "a1b5e936-3824-4190-a5c8-c8d6046d97b7")
 		)
 		(pin "DOUT" output
-			(at 93.98 83.82 0)
+			(at 93.98 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +6071,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 111.76)
+		(at 137.16 62.23)
 		(size 36.83 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -6083,7 +6083,7 @@
 		)
 		(uuid "2c98066d-dc16-46b5-a07e-a5be02df7902")
 		(property "Sheetname" "WLED driver 15"
-			(at 137.16 111.0484 0)
+			(at 137.16 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6092,7 @@
 			)
 		)
 		(property "Sheetfile" "wled_driver.kicad_sch"
-			(at 137.16 122.5046 0)
+			(at 137.16 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +6101,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 137.16 114.3 180)
+			(at 137.16 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6111,7 @@
 			(uuid "352d4c29-6de9-4c4d-8727-b87687cdf43a")
 		)
 		(pin "DIN" input
-			(at 137.16 119.38 180)
+			(at 137.16 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,7 +6121,7 @@
 			(uuid "eecb5df7-4bb8-4d67-be79-ecd4ad6161fb")
 		)
 		(pin "DOUT" output
-			(at 173.99 116.84 0)
+			(at 173.99 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,7 +6207,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 62.23)
+		(at 137.16 29.21)
 		(size 36.83 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -6219,142 +6219,6 @@
 		)
 		(uuid "597aac5a-6d50-4a9c-80af-2cb26cd55911")
 		(property "Sheetname" "WLED driver 12"
-			(at 137.16 61.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "wled_driver.kicad_sch"
-			(at 137.16 72.9746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "EN" input
-			(at 137.16 64.77 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d2bd646d-d044-47e0-97ef-55b0b85b285a")
-		)
-		(pin "DIN" input
-			(at 137.16 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "14f3a674-38b5-49d7-87b0-4f51d338aa1a")
-		)
-		(pin "DOUT" output
-			(at 173.99 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b8e54013-c90e-4708-ae88-ede0877cb028")
-		)
-		(instances
-			(project "wled_controller"
-				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/3bca95b1-7c0d-4b5e-a68e-7427682c2c00"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 57.15 95.25)
-		(size 36.83 10.16)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5cd33f2a-4e02-44ac-afe4-386c91c80584")
-		(property "Sheetname" "WLED driver 5"
-			(at 57.15 94.5384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "wled_driver.kicad_sch"
-			(at 57.15 105.9946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "EN" input
-			(at 57.15 97.79 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "dcc5e07a-f252-407a-8c73-8dce181e0da4")
-		)
-		(pin "DIN" input
-			(at 57.15 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2d92bb8e-f77f-4b65-9400-a66942aba8c0")
-		)
-		(pin "DOUT" output
-			(at 93.98 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "85c3d086-4ec1-43d3-8125-48180ec49928")
-		)
-		(instances
-			(project "wled_controller"
-				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/3bca95b1-7c0d-4b5e-a68e-7427682c2c00"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 137.16 29.21)
-		(size 36.83 10.16)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6e4b0470-a8a7-4f70-b1f6-fef394f3c797")
-		(property "Sheetname" "WLED driver 10"
 			(at 137.16 28.4984 0)
 			(effects
 				(font
@@ -6380,7 +6244,7 @@
 				)
 				(justify left)
 			)
-			(uuid "324feb1f-02c0-477a-a962-db24040c4ef9")
+			(uuid "d2bd646d-d044-47e0-97ef-55b0b85b285a")
 		)
 		(pin "DIN" input
 			(at 137.16 36.83 180)
@@ -6390,10 +6254,146 @@
 				)
 				(justify left)
 			)
-			(uuid "e73b80ee-47e7-41d5-9b1e-cfc2078a7f68")
+			(uuid "14f3a674-38b5-49d7-87b0-4f51d338aa1a")
 		)
 		(pin "DOUT" output
 			(at 173.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8e54013-c90e-4708-ae88-ede0877cb028")
+		)
+		(instances
+			(project "wled_controller"
+				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/3bca95b1-7c0d-4b5e-a68e-7427682c2c00"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 45.72)
+		(size 36.83 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5cd33f2a-4e02-44ac-afe4-386c91c80584")
+		(property "Sheetname" "WLED driver 5"
+			(at 137.16 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wled_driver.kicad_sch"
+			(at 137.16 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 137.16 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dcc5e07a-f252-407a-8c73-8dce181e0da4")
+		)
+		(pin "DIN" input
+			(at 137.16 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d92bb8e-f77f-4b65-9400-a66942aba8c0")
+		)
+		(pin "DOUT" output
+			(at 173.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85c3d086-4ec1-43d3-8125-48180ec49928")
+		)
+		(instances
+			(project "wled_controller"
+				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/3bca95b1-7c0d-4b5e-a68e-7427682c2c00"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 95.25)
+		(size 36.83 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e4b0470-a8a7-4f70-b1f6-fef394f3c797")
+		(property "Sheetname" "WLED driver 10"
+			(at 57.15 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wled_driver.kicad_sch"
+			(at 57.15 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 57.15 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "324feb1f-02c0-477a-a962-db24040c4ef9")
+		)
+		(pin "DIN" input
+			(at 57.15 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e73b80ee-47e7-41d5-9b1e-cfc2078a7f68")
+		)
+		(pin "DOUT" output
+			(at 93.98 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6411,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 78.74)
+		(at 137.16 111.76)
 		(size 36.83 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -6423,7 +6423,7 @@
 		)
 		(uuid "82554e81-accd-4b21-bb69-2c7d636ffcf8")
 		(property "Sheetname" "WLED driver 13"
-			(at 137.16 78.0284 0)
+			(at 137.16 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6432,7 @@
 			)
 		)
 		(property "Sheetfile" "wled_driver.kicad_sch"
-			(at 137.16 89.4846 0)
+			(at 137.16 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +6441,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 137.16 81.28 180)
+			(at 137.16 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +6451,7 @@
 			(uuid "8a294fd6-f071-49ac-8d6b-09bcc2709b3d")
 		)
 		(pin "DIN" input
-			(at 137.16 86.36 180)
+			(at 137.16 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6461,7 @@
 			(uuid "28e36a1f-7a78-4e34-b952-3a0c2d745157")
 		)
 		(pin "DOUT" output
-			(at 173.99 83.82 0)
+			(at 173.99 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6547,7 +6547,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 45.72)
+		(at 57.15 144.78)
 		(size 36.83 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -6559,7 +6559,7 @@
 		)
 		(uuid "a2a66682-8b14-4bf9-a68d-ffdf34f1216b")
 		(property "Sheetname" "WLED driver 11"
-			(at 137.16 45.0084 0)
+			(at 57.15 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +6568,7 @@
 			)
 		)
 		(property "Sheetfile" "wled_driver.kicad_sch"
-			(at 137.16 56.4646 0)
+			(at 57.15 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +6577,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 137.16 48.26 180)
+			(at 57.15 147.32 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,7 +6587,7 @@
 			(uuid "c8d4d5b4-19a3-4086-b4ca-224483089409")
 		)
 		(pin "DIN" input
-			(at 137.16 53.34 180)
+			(at 57.15 152.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6597,7 @@
 			(uuid "0b9abc55-7af8-41d6-89be-60825b58df55")
 		)
 		(pin "DOUT" output
-			(at 173.99 50.8 0)
+			(at 93.98 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6615,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 128.27)
+		(at 57.15 78.74)
 		(size 36.83 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -6627,7 +6627,7 @@
 		)
 		(uuid "aa59797d-bf56-4d6d-9973-f55f31558b2f")
 		(property "Sheetname" "WLED driver 7"
-			(at 57.15 127.5584 0)
+			(at 57.15 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +6636,7 @@
 			)
 		)
 		(property "Sheetfile" "wled_driver.kicad_sch"
-			(at 57.15 139.0146 0)
+			(at 57.15 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6645,7 +6645,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 57.15 130.81 180)
+			(at 57.15 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6655,7 @@
 			(uuid "b1c9ced6-4682-4dbf-bae4-1356e146d5fa")
 		)
 		(pin "DIN" input
-			(at 57.15 135.89 180)
+			(at 57.15 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +6665,7 @@
 			(uuid "95311304-736a-4ba9-98dc-b66080575fe3")
 		)
 		(pin "DOUT" output
-			(at 93.98 133.35 0)
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +6683,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 111.76)
+		(at 137.16 78.74)
 		(size 36.83 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -6695,6 +6695,74 @@
 		)
 		(uuid "c1005d85-77cf-4b61-9fc3-62b65fb216bb")
 		(property "Sheetname" "WLED driver 6"
+			(at 137.16 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wled_driver.kicad_sch"
+			(at 137.16 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 137.16 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f377c182-ae4f-4791-8f90-f5eabed77413")
+		)
+		(pin "DIN" input
+			(at 137.16 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "67628a13-b3bf-4a5e-8f99-3efce51b33ad")
+		)
+		(pin "DOUT" output
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a2a362c-5553-4cdf-8b02-21533d7838fb")
+		)
+		(instances
+			(project "wled_controller"
+				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/3bca95b1-7c0d-4b5e-a68e-7427682c2c00"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 111.76)
+		(size 36.83 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd00f0d0-34e5-4741-829f-70a6b109fec4")
+		(property "Sheetname" "WLED driver 9"
 			(at 57.15 111.0484 0)
 			(effects
 				(font
@@ -6720,7 +6788,7 @@
 				)
 				(justify left)
 			)
-			(uuid "f377c182-ae4f-4791-8f90-f5eabed77413")
+			(uuid "66f9704b-0ce0-48c3-b54c-588e998ae175")
 		)
 		(pin "DIN" input
 			(at 57.15 119.38 180)
@@ -6730,78 +6798,10 @@
 				)
 				(justify left)
 			)
-			(uuid "67628a13-b3bf-4a5e-8f99-3efce51b33ad")
-		)
-		(pin "DOUT" output
-			(at 93.98 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0a2a362c-5553-4cdf-8b02-21533d7838fb")
-		)
-		(instances
-			(project "wled_controller"
-				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/3bca95b1-7c0d-4b5e-a68e-7427682c2c00"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 57.15 161.29)
-		(size 36.83 10.16)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dd00f0d0-34e5-4741-829f-70a6b109fec4")
-		(property "Sheetname" "WLED driver 9"
-			(at 57.15 160.5784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "wled_driver.kicad_sch"
-			(at 57.15 172.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "EN" input
-			(at 57.15 163.83 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "66f9704b-0ce0-48c3-b54c-588e998ae175")
-		)
-		(pin "DIN" input
-			(at 57.15 168.91 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
 			(uuid "de016ac0-de72-479d-bda4-e28c68390c3f")
 		)
 		(pin "DOUT" output
-			(at 93.98 166.37 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)

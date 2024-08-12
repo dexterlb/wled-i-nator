@@ -456,6 +456,152 @@
 				)
 			)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -561,6 +707,168 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N4007"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4007"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4007_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4007_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1426,7 +1734,7 @@
 		(uuid "0cf225f9-46a6-4dac-9582-59b5572a8860")
 	)
 	(junction
-		(at 86.36 87.63)
+		(at 68.58 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c8ea6c9-9bac-4987-b5f1-00ef122c3c8c")
@@ -1450,16 +1758,16 @@
 		(uuid "95313a17-3491-4936-b83a-f08611f56404")
 	)
 	(junction
+		(at 68.58 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a0dea48-269f-4264-87de-1337c5301481")
+	)
+	(junction
 		(at 109.22 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad226404-313f-4d61-9784-2cb495d6c8e0")
-	)
-	(junction
-		(at 86.36 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3191d08-527e-4fc9-8f3f-03727731492e")
 	)
 	(junction
 		(at 100.33 85.09)
@@ -1478,6 +1786,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3700797-0479-48a6-9ddb-237ccdaeff91")
+	)
+	(junction
+		(at 87.63 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9d5f9cf-6e78-49a5-97d1-b9100eff645a")
 	)
 	(wire
 		(pts
@@ -1501,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 109.22) (xy 90.17 87.63)
+			(xy 72.39 109.22) (xy 72.39 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1531,6 +1845,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 97.79) (xy 87.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d78da37-ec1c-48eb-bc78-9245473403de")
+	)
+	(wire
+		(pts
 			(xy 115.57 85.09) (xy 113.03 85.09)
 		)
 		(stroke
@@ -1551,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 88.9) (xy 86.36 87.63)
+			(xy 68.58 88.9) (xy 68.58 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1601,13 +1925,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 83.82) (xy 86.36 85.09)
+			(xy 68.58 83.82) (xy 68.58 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4847edca-25cf-4201-a5ba-0ffcbc8490a8")
+	)
+	(wire
+		(pts
+			(xy 87.63 85.09) (xy 87.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0f7905-225b-45f5-b31e-065cf6fbb6e0")
 	)
 	(wire
 		(pts
@@ -1681,13 +2015,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 85.09) (xy 86.36 85.09)
+			(xy 67.31 85.09) (xy 68.58 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "804bf731-80e6-4c67-9c60-d7b7c54f78f5")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 87.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808ee97b-f5b5-4fe0-b043-b47d44c9c86b")
 	)
 	(wire
 		(pts
@@ -1698,6 +2042,16 @@
 			(type default)
 		)
 		(uuid "8cd6a023-70c5-40fe-86be-46e6494358c6")
+	)
+	(wire
+		(pts
+			(xy 87.63 85.09) (xy 83.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928e0743-cb65-414b-828b-ff286cde5eb0")
 	)
 	(wire
 		(pts
@@ -1771,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 87.63) (xy 86.36 87.63)
+			(xy 72.39 87.63) (xy 68.58 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 87.63) (xy 85.09 87.63)
+			(xy 68.58 87.63) (xy 67.31 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1791,13 +2145,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 85.09) (xy 100.33 85.09)
+			(xy 68.58 85.09) (xy 76.2 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc28cf27-5ac9-4e53-9ba2-542b04633ee2")
+		(uuid "cee8ccd8-83a2-444f-90af-79302b98dbce")
 	)
 	(wire
 		(pts
@@ -1861,6 +2215,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 85.09) (xy 100.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7504b5-c2f0-4264-b51c-42d1c21fd999")
+	)
+	(wire
+		(pts
 			(xy 140.97 76.2) (xy 137.16 76.2)
 		)
 		(stroke
@@ -1899,7 +2263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f152a15-93a7-494e-9535-43092fe007ca")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 100.33 115.57 0)
 			(effects
 				(font
@@ -1950,7 +2314,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2062,7 +2426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13f6d83b-d351-4d1c-96c0-0939bd7993fa")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 195.58 115.57 0)
 			(effects
 				(font
@@ -2113,7 +2477,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -2320,7 +2684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "324905db-92f8-493e-a694-85582d37e926")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 195.58 86.36 0)
 			(effects
 				(font
@@ -2370,7 +2734,74 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
-					(reference "#PWR075")
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "325f518a-9a53-45e3-bc38-0bd3fc6c81a1")
+		(property "Reference" "#PWR069"
+			(at 87.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eac7ea35-54d5-49ef-b5d4-db9d1e6c3ad5")
+		)
+		(instances
+			(project "wled_controller"
+				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2386,7 +2817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35528280-8044-447b-bd35-e3612f79b537")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 180.34 115.57 0)
 			(effects
 				(font
@@ -2437,7 +2868,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -2445,7 +2876,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 86.36 88.9 180)
+		(at 68.58 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2454,7 +2885,7 @@
 		(fields_autoplaced yes)
 		(uuid "360a113c-d2dd-42ac-bfdf-c402528a059d")
 		(property "Reference" "#FLG04"
-			(at 86.36 90.805 0)
+			(at 68.58 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2894,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 86.36 93.98 0)
+			(at 68.58 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 88.9 0)
+			(at 68.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2912,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 88.9 0)
+			(at 68.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2921,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 86.36 88.9 0)
+			(at 68.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,8 +2943,7 @@
 	)
 	(symbol
 		(lib_id "conn:Screw_Terminal_01x02")
-		(at 80.01 85.09 0)
-		(mirror y)
+		(at 62.23 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2521,7 +2951,7 @@
 		(dnp no)
 		(uuid "396e3ad2-4a8b-4167-9f28-0b05ee733ec5")
 		(property "Reference" "J16"
-			(at 69.85 85.09 0)
+			(at 52.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2960,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 80.01 90.17 0)
+			(at 62.23 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,8 +2968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "conn:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
-			(at 80.01 85.09 0)
+		(property "Footprint" "conn:TerminalBlock_1x02_P5.00mm_Horizontal"
+			(at 62.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 85.09 0)
+			(at 62.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2987,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 85.09 0)
+			(at 62.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2996,7 @@
 			)
 		)
 		(property "Purpose Pin1" "VDD"
-			(at 77.47 85.09 0)
+			(at 59.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +3005,7 @@
 			)
 		)
 		(property "Purpose Pin2" "GND"
-			(at 77.47 87.63 0)
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +3014,7 @@
 			)
 		)
 		(property "Purpose" "PWR IN"
-			(at 69.85 87.63 0)
+			(at 52.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,8 +3022,8 @@
 				(justify left)
 			)
 		)
-		(property "Shop" "https://store.comet.bg/Catalogue/Product/45040/, https://store.comet.bg/Catalogue/Product/45028/"
-			(at 80.01 85.09 0)
+		(property "Shop" "https://store.comet.bg/Catalogue/Product/49346/"
+			(at 62.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,8 +3031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "15EDGVC-3.5-02P-14-00AH, 15EDGKA-3.5-02P-14-100AH"
-			(at 80.01 85.09 0)
+		(property "Part" "DG127-5.0-02P-14-00AH"
+			(at 62.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +3153,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 86.36 83.82 0)
+		(at 68.58 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2732,7 +3162,7 @@
 		(fields_autoplaced yes)
 		(uuid "63c850b6-e391-41e4-bc64-4dc1928382be")
 		(property "Reference" "#FLG03"
-			(at 86.36 81.915 0)
+			(at 68.58 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +3171,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 86.36 78.74 0)
+			(at 68.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +3180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 83.82 0)
+			(at 68.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +3189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 83.82 0)
+			(at 68.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +3198,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 86.36 83.82 0)
+			(at 68.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,6 +3410,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 87.63 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69860dca-2e33-4dab-88be-48acb36cfbd2")
+		(property "Reference" "#FLG05"
+			(at 87.63 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8df21a41-e82a-4a7c-89f2-17feba179661")
+		)
+		(instances
+			(project "wled_controller"
+				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 109.22 0)
 		(unit 1)
@@ -2989,7 +3486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fddf10c-0e63-4b27-8f4b-c8c8f6dd48c5")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 109.22 115.57 0)
 			(effects
 				(font
@@ -3040,7 +3537,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3143,44 +3640,42 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 109.22 0)
+		(lib_id "Device:Polyfuse")
+		(at 80.01 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2dfe94d-bd94-4fdf-a557-4f355d2fadc5")
-		(property "Reference" "#PWR068"
-			(at 90.17 115.57 0)
+		(uuid "995ddf96-242f-46ca-a1b7-198a0f2465e5")
+		(property "Reference" "F1"
+			(at 80.01 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 90.17 114.3 0)
+		(property "Value" "Fuse"
+			(at 80.01 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 90.17 109.22 0)
+		(property "Footprint" "conn:Fuseholder_FS002"
+			(at 85.09 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 90.17 109.22 0)
+		(property "Datasheet" "~"
+			(at 80.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3684,95 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 109.22 0)
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shop" "2x https://store.comet.bg/Catalogue/Product/51167/"
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "2x FS-002"
+			(at 80.01 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f986affc-aae3-4844-9ec6-8e6872370d92")
+		)
+		(pin "1"
+			(uuid "623c374f-f23f-42f4-89d5-a34aed3762e6")
+		)
+		(instances
+			(project "wled_controller"
+				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2dfe94d-bd94-4fdf-a557-4f355d2fadc5")
+		(property "Reference" "#PWR068"
+			(at 72.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b546ad5d-8645-4337-bd5d-7e563c0cd841")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 125.73 77.47 0)
 			(effects
 				(font
@@ -3303,7 +3886,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc428984-07b1-48ce-a2e8-9d15225cccce")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 125.73 104.14 0)
 			(effects
 				(font
@@ -3370,7 +3953,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3385,7 +3968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf3c67f5-6fed-4ffe-8ff7-b0c4f1af69db")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 100.33 86.36 0)
 			(effects
 				(font
@@ -3435,7 +4018,122 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
-					(reference "#PWR069")
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 87.63 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d15f437e-367f-43cc-bb04-ac2adb768f2b")
+		(property "Reference" "D2"
+			(at 90.17 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "S2A"
+			(at 90.17 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 92.075 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shop" "https://store.comet.bg/Catalogue/Product/48275/"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420368"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "S2A"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4eebe14e-e82b-4140-a53a-a94bdf7e49b4")
+		)
+		(pin "1"
+			(uuid "2253d665-ba2b-40a9-b84b-408e28f74373")
+		)
+		(instances
+			(project "wled_controller"
+				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3451,7 +4149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d45e161e-8ca7-4a42-91e0-0f46bbadcb47")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG06"
 			(at 160.02 84.455 0)
 			(effects
 				(font
@@ -3502,7 +4200,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
-					(reference "#FLG05")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -3611,7 +4309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1f687a8-3d08-439d-bb88-301a297ab676")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 160.02 115.57 0)
 			(effects
 				(font
@@ -3662,7 +4360,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/07b1b39b-eaae-4ce9-8e52-afae0c59cf87"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
