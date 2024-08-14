@@ -465,7 +465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56dce8f6-408c-4904-8a60-0ef5d6b77c57")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0106"
 			(at 86.36 77.47 0)
 			(effects
 				(font
@@ -516,7 +516,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "#PWR0104")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -532,7 +532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2fe604-3f63-4520-a4f9-d697985f3d0e")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0108"
 			(at 95.25 77.47 0)
 			(effects
 				(font
@@ -583,7 +583,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "#PWR0106")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -599,7 +599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac47bbca-df1d-4072-8db0-fa4f873d95cb")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0105"
 			(at 86.36 66.04 0)
 			(effects
 				(font
@@ -650,7 +650,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "#PWR0103")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -730,7 +730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf19ea56-3ae4-473e-b578-e87f56f6e30d")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0107"
 			(at 86.36 88.9 0)
 			(effects
 				(font
@@ -781,7 +781,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "#PWR0105")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)

@@ -3457,7 +3457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f865b195-f6da-4789-9a09-b33580b8d165")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR081"
 			(at 180.34 80.01 0)
 			(effects
 				(font
@@ -3507,7 +3507,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
-					(reference "#PWR0107")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)

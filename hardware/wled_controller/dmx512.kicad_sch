@@ -633,6 +633,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:BAT54C"
 			(pin_names
 				(offset 1.016)
@@ -945,6 +1066,267 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Power_Protection:NUP2105L"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.715 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NUP2105L"
+				(at 5.715 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.715 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Line CAN Bus Protector, 24Vrwm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "can esd protection suppression transient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NUP2105L_0_0"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NUP2105L_0_1"
+				(rectangle
+					(start -4.445 2.54)
+					(end 4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.175 0.635) (xy -1.905 0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -1.905 -0.635) (xy -3.175 -0.635) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 1.905 -0.635) (xy 3.175 -0.635) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 3.175 1.905) (xy 1.905 1.905) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -3.175 1.905) (xy -1.905 1.905) (xy -2.54 0.635) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.905 0.635) (xy 2.54 0.635) (xy 3.175 0.635) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NUP2105L_1_1"
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2189,6 +2571,12 @@
 		(uuid "2b91866d-8ca5-49dc-a46a-95430f70077a")
 	)
 	(junction
+		(at 209.55 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d80e619-5858-4ebe-99f5-2bf5cc08eacf")
+	)
+	(junction
 		(at 90.17 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2199,6 +2587,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41a19f70-bcbc-488a-afc8-058b3aced77a")
+	)
+	(junction
+		(at 209.55 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44778c94-efa7-49e3-8515-cc0a7beed166")
 	)
 	(junction
 		(at 185.42 60.96)
@@ -2231,22 +2625,22 @@
 		(uuid "6ac4a7ac-28eb-481a-88ee-7b0085bcb44b")
 	)
 	(junction
-		(at 124.46 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73eb547f-a12c-4262-a1ee-f08c0f46f7c0")
-	)
-	(junction
 		(at 132.08 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84a54019-0723-4aaa-874d-bf7807b87b04")
 	)
 	(junction
-		(at 121.92 111.76)
+		(at 147.32 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af3389e2-d8a6-4105-ba89-223b3bf51521")
+		(uuid "85172bc1-687d-4cec-819a-29b2cab80492")
+	)
+	(junction
+		(at 124.46 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e3170e3-49db-4489-8765-b186a77eb57c")
 	)
 	(junction
 		(at 157.48 80.01)
@@ -2279,6 +2673,12 @@
 		(uuid "cc82c797-deb1-425c-bf97-81195200f303")
 	)
 	(junction
+		(at 121.92 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d310dda8-28dd-4343-a4ce-eafb880f014a")
+	)
+	(junction
 		(at 241.3 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2304,6 +2704,26 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 119.38) (xy 209.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02693a9f-d142-4cd7-979b-1121977c104d")
+	)
+	(wire
+		(pts
+			(xy 209.55 114.3) (xy 241.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084fc0af-1e24-49cc-853a-1716b5bbe5a1")
+	)
+	(wire
+		(pts
 			(xy 224.79 69.85) (xy 217.17 69.85)
 		)
 		(stroke
@@ -2324,13 +2744,23 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 111.76) (xy 243.84 95.25)
+			(xy 243.84 95.25) (xy 243.84 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e63fdae-61e2-4375-9331-67c24deb307e")
+	)
+	(wire
+		(pts
+			(xy 209.55 119.38) (xy 243.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7fd6bb-7dc8-4129-8233-c90f1d20beb5")
 	)
 	(wire
 		(pts
@@ -2384,6 +2814,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 109.22) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2b9382-b46f-441b-87e8-35d0b7663c8b")
+	)
+	(wire
+		(pts
 			(xy 185.42 73.66) (xy 185.42 80.01)
 		)
 		(stroke
@@ -2391,6 +2831,16 @@
 			(type default)
 		)
 		(uuid "1dca8cef-8c5d-4861-a85a-37bcb6dbaf88")
+	)
+	(wire
+		(pts
+			(xy 185.42 116.84) (xy 177.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253be027-6116-43b1-96d4-4f3d4ccc26ad")
 	)
 	(wire
 		(pts
@@ -2471,6 +2921,16 @@
 			(type default)
 		)
 		(uuid "4042d005-5cbc-473c-9719-70368b7994b4")
+	)
+	(wire
+		(pts
+			(xy 177.8 116.84) (xy 185.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4059348a-8334-43c2-903d-81e92d055233")
 	)
 	(wire
 		(pts
@@ -2594,6 +3054,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 124.46) (xy 185.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62afa774-4e67-4865-8f0a-95be07060179")
+	)
+	(wire
+		(pts
 			(xy 124.46 85.09) (xy 124.46 78.74)
 		)
 		(stroke
@@ -2624,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 109.22) (xy 241.3 85.09)
+			(xy 241.3 85.09) (xy 241.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2681,6 +3151,16 @@
 			(type default)
 		)
 		(uuid "72cd0f95-1cc5-4c7b-bc9f-53e76389ff7d")
+	)
+	(wire
+		(pts
+			(xy 205.74 124.46) (xy 209.55 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc4f178-1a27-4036-87be-a45a0859cd1e")
 	)
 	(wire
 		(pts
@@ -2874,6 +3354,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 109.22) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9108029-91b9-4fa9-a16f-cd932f2ea878")
+	)
+	(wire
+		(pts
+			(xy 124.46 109.22) (xy 198.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aceb5fb4-cd89-4375-a22c-567f8d8cd262")
+	)
+	(wire
+		(pts
 			(xy 165.1 63.5) (xy 163.83 63.5)
 		)
 		(stroke
@@ -2914,6 +3414,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 114.3) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b331b075-3c63-46b2-b5b2-86791f876d6d")
+	)
+	(wire
+		(pts
 			(xy 224.79 67.31) (xy 224.79 69.85)
 		)
 		(stroke
@@ -2941,6 +3451,16 @@
 			(type default)
 		)
 		(uuid "b4efcbb0-e196-40da-a35e-56742810d8e0")
+	)
+	(wire
+		(pts
+			(xy 209.55 124.46) (xy 209.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8753216-c2e1-4471-a7a3-68e73713f032")
 	)
 	(wire
 		(pts
@@ -2984,6 +3504,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 116.84) (xy 196.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77568f3-a73e-4fe6-abb5-9fb19f357904")
+	)
+	(wire
+		(pts
 			(xy 129.54 71.12) (xy 132.08 71.12)
 		)
 		(stroke
@@ -2991,16 +3521,6 @@
 			(type default)
 		)
 		(uuid "ca13ac5a-21b2-4423-b0fa-2ba632647618")
-	)
-	(wire
-		(pts
-			(xy 121.92 111.76) (xy 243.84 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd18fdf0-b643-4dfe-8d3b-6f27c8746e63")
 	)
 	(wire
 		(pts
@@ -3094,6 +3614,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 116.84) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8665560-dd48-4123-a08a-8df1a4c568ec")
+	)
+	(wire
+		(pts
 			(xy 147.32 80.01) (xy 147.32 124.46)
 		)
 		(stroke
@@ -3111,16 +3641,6 @@
 			(type default)
 		)
 		(uuid "e9a0d881-8417-4d0f-8a8a-1f29546ac04e")
-	)
-	(wire
-		(pts
-			(xy 124.46 109.22) (xy 241.3 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee57c4ab-3b0f-4de3-9e60-26ec81903ce3")
 	)
 	(wire
 		(pts
@@ -3151,6 +3671,16 @@
 			(type default)
 		)
 		(uuid "f3884441-62f0-40d9-bcb0-ea8a0d9ed1c0")
+	)
+	(wire
+		(pts
+			(xy 147.32 124.46) (xy 177.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a36380-819a-4269-9eaf-480a95126993")
 	)
 	(wire
 		(pts
@@ -3868,6 +4398,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 201.93 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79f3a5a0-526f-42cf-81cc-402078f0a5e4")
+		(property "Reference" "R20"
+			(at 196.85 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 201.93 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 201.93 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Info" "125mW 5%"
+			(at 201.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shop" "https://store.comet.bg/Catalogue/Product/29580/"
+			(at 201.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51cc1fc7-06ec-4b40-8b6c-0eb4d9c85e34")
+		)
+		(pin "2"
+			(uuid "b6ee9b79-c937-4a61-9582-48062284b009")
+		)
+		(instances
+			(project "wled_controller"
+				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:NUP2105L")
+		(at 201.93 116.84 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8df58ea6-86cb-4ff1-a734-5eb44f4c90be")
+		(property "Reference" "D5"
+			(at 196.85 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM712"
+			(at 213.995 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 200.66 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+			(at 205.105 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shop" "https://store.comet.bg/Catalogue/Product/46888/"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "86f4bc57-beb2-41b2-8cff-8d0a94a2cf75")
+		)
+		(pin "1"
+			(uuid "ef1395d0-10fc-418c-a224-8382212f93f9")
+		)
+		(pin "2"
+			(uuid "20faa3c0-fbc2-4a65-916a-499be9dfe63a")
+		)
+		(instances
+			(project "wled_controller"
+				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 129.54 270)
 		(unit 1)
@@ -3877,7 +4573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a2d8bf-1c3a-4535-b58f-b29e2c18520c")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR097"
 			(at 83.82 129.54 0)
 			(effects
 				(font
@@ -3928,7 +4624,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
-					(reference "#PWR096")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -4116,7 +4812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b54761b3-f8fc-4642-a8ea-edc6b34af158")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR094"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -4167,7 +4863,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
-					(reference "#PWR093")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -4183,7 +4879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba775e4a-fab1-4a69-b9d0-9658933528b7")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR095"
 			(at 92.71 104.14 0)
 			(effects
 				(font
@@ -4234,7 +4930,7 @@
 		(instances
 			(project ""
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
-					(reference "#PWR094")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -4549,6 +5245,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 201.93 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef97fa36-ecef-49d7-8f12-5ff74f15d75e")
+		(property "Reference" "R21"
+			(at 196.85 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 201.93 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 201.93 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Info" "125mW 5%"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shop" "https://store.comet.bg/Catalogue/Product/29580/"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2aa5a13-0f4d-4698-bae6-dde96d1cc29c")
+		)
+		(pin "2"
+			(uuid "e706a412-bf19-42cc-82ab-7ba0dad0b2a7")
+		)
+		(instances
+			(project "wled_controller"
+				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:TLV70012_SOT23-5")
 		(at 172.72 63.5 0)
 		(unit 1)
@@ -4654,7 +5435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbddfc43-f689-4a69-bc0c-702ef621a9f3")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR096"
 			(at 90.17 102.87 0)
 			(effects
 				(font
@@ -4705,7 +5486,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
-					(reference "#PWR095")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
