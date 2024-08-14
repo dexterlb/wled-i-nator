@@ -1658,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 121.92) (xy 146.05 121.92)
+			(xy 156.21 121.92) (xy 146.05 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1968,7 +1968,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 124.46) (xy 146.05 124.46)
+			(xy 156.21 124.46) (xy 146.05 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2217,13 +2217,13 @@
 		(uuid "fa28ca21-98ab-476e-abab-440f92bf7414")
 	)
 	(label "D11"
-		(at 153.67 124.46 180)
+		(at 102.87 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "106848d8-882f-476c-b2e9-8c91875cd2ba")
 	)
@@ -2261,7 +2261,7 @@
 		(uuid "3f34b569-5f4f-424f-b33c-4155eac6d5df")
 	)
 	(label "D13"
-		(at 156.21 116.84 180)
+		(at 156.21 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2283,7 +2283,7 @@
 		(uuid "4b53d85a-b3bb-423c-bb93-a12fca0b63d3")
 	)
 	(label "D7"
-		(at 102.87 114.3 0)
+		(at 102.87 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2371,7 +2371,7 @@
 		(uuid "6b995209-be81-4bd4-8a76-b24396deccc2")
 	)
 	(label "D9"
-		(at 102.87 121.92 0)
+		(at 102.87 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2393,7 +2393,7 @@
 		(uuid "6ea40ab9-afe7-4b7c-9dbc-b31b28c3ed68")
 	)
 	(label "D8"
-		(at 102.87 116.84 0)
+		(at 102.87 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2426,7 +2426,7 @@
 		(uuid "7c8bbe9d-52d1-492c-b9b4-3fa9cb0bd668")
 	)
 	(label "D14"
-		(at 156.21 114.3 180)
+		(at 156.21 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2437,7 +2437,7 @@
 		(uuid "9185718c-87db-4d23-9973-c570a0331fee")
 	)
 	(label "D2"
-		(at 102.87 99.06 0)
+		(at 102.87 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2459,7 +2459,7 @@
 		(uuid "9daed970-4e86-4e3f-986c-2fe7bc99b739")
 	)
 	(label "D1"
-		(at 102.87 96.52 0)
+		(at 102.87 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2470,7 +2470,7 @@
 		(uuid "a063f76d-9d4f-40c0-a2c5-0d8379bef9c1")
 	)
 	(label "D3"
-		(at 102.87 101.6 0)
+		(at 102.87 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2481,7 +2481,7 @@
 		(uuid "aec05dc0-c3d7-4bc4-82df-6144b17e3a4d")
 	)
 	(label "D5"
-		(at 102.87 109.22 0)
+		(at 102.87 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2492,7 +2492,7 @@
 		(uuid "b0458210-cc23-4829-83fd-95394c40a144")
 	)
 	(label "D15"
-		(at 156.21 111.76 180)
+		(at 156.21 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2514,7 +2514,7 @@
 		(uuid "c47af4f6-bbd7-427d-8c79-a5e88b39011a")
 	)
 	(label "D12"
-		(at 153.67 121.92 180)
+		(at 156.21 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2536,13 +2536,13 @@
 		(uuid "e1fec8d7-32f8-42b5-92a9-4082c37b3b78")
 	)
 	(label "D10"
-		(at 102.87 124.46 0)
+		(at 156.21 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e6da2a9e-10d2-4258-ab94-6da9795c8601")
 	)
@@ -2558,7 +2558,7 @@
 		(uuid "eaa8b843-4a24-4b5b-b7d7-b101375f9e57")
 	)
 	(label "D4"
-		(at 102.87 104.14 0)
+		(at 102.87 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2580,7 +2580,7 @@
 		(uuid "f700a6e0-7b44-455e-896c-bbced7088c54")
 	)
 	(label "D6"
-		(at 102.87 111.76 0)
+		(at 102.87 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2600,7 +2600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "094e2594-bdc0-4d0b-a3eb-d9dcecafbd05")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 172.72 63.5 0)
 			(effects
 				(font
@@ -2651,7 +2651,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2773,7 +2773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "193309d1-eba0-479c-923b-50847ed245be")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 172.72 78.74 0)
 			(effects
 				(font
@@ -2824,7 +2824,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2839,7 +2839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30ced904-041b-4dbd-b65a-a40d0d13888e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -2890,7 +2890,7 @@
 		(instances
 			(project ""
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

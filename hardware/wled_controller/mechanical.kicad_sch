@@ -315,16 +315,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 58.42) (xy 95.25 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b42e89b-202e-4db9-a9dd-86d6355128e5")
-	)
-	(wire
-		(pts
 			(xy 86.36 69.85) (xy 86.36 71.12)
 		)
 		(stroke
@@ -332,84 +322,6 @@
 			(type default)
 		)
 		(uuid "a75c1649-96a0-41d4-9bb6-2a20f41cdec8")
-	)
-	(wire
-		(pts
-			(xy 95.25 81.28) (xy 95.25 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a7ad05-96b4-4d4b-8958-d256d227c2b2")
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 95.25 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fc4cd6d-f88a-44a1-b3dc-e0216f70d0e9")
-		(property "Reference" "H6"
-			(at 97.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 97.79 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "mechanical:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 95.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8f6b21c-106f-4137-bf45-60e390b0b599")
-		)
-		(instances
-			(project "wled_controller"
-				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -474,74 +386,6 @@
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 95.25 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ca3fff7-b0ca-48a0-be5e-877c65e00633")
-		(property "Reference" "H4"
-			(at 97.79 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 97.79 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "mechanical:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f36310c6-44f2-479e-b3b9-4fde24d92d40")
-		)
-		(instances
-			(project "wled_controller"
-				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -621,7 +465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56dce8f6-408c-4904-8a60-0ef5d6b77c57")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0104"
 			(at 86.36 77.47 0)
 			(effects
 				(font
@@ -672,74 +516,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58c8b28c-64d6-45c0-8a6b-3378de2b8a2c")
-		(property "Reference" "#PWR0111"
-			(at 95.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9eb4a7b-2763-4a07-a286-20ceb94a3d2c")
-		)
-		(instances
-			(project "wled_controller"
-				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "#PWR0111")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -755,7 +532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2fe604-3f63-4520-a4f9-d697985f3d0e")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0106"
 			(at 95.25 77.47 0)
 			(effects
 				(font
@@ -806,7 +583,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "#PWR0110")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -822,7 +599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac47bbca-df1d-4072-8db0-fa4f873d95cb")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0103"
 			(at 86.36 66.04 0)
 			(effects
 				(font
@@ -873,7 +650,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "#PWR0106")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -953,7 +730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf19ea56-3ae4-473e-b578-e87f56f6e30d")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0105"
 			(at 86.36 88.9 0)
 			(effects
 				(font
@@ -1004,7 +781,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "#PWR0108")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -1020,7 +797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1e346b5-75f7-49fa-9fe3-ec54acba7470")
-		(property "Reference" "H5"
+		(property "Reference" "H4"
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -1072,74 +849,7 @@
 		(instances
 			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c988c4cc-3b02-496a-a1a9-0cd9cf785c94")
-		(property "Reference" "#PWR0109"
-			(at 95.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb8bd358-932e-4e9b-a582-579c4571da76")
-		)
-		(instances
-			(project "wled_controller"
-				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/89570770-3210-4235-bcbd-343361bf5b91"
-					(reference "#PWR0109")
+					(reference "H4")
 					(unit 1)
 				)
 			)
