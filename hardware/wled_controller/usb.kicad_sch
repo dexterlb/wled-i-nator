@@ -2682,7 +2682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Shop" "https://www.tme.eu/bg/details/0105-05/sediniteli-din/lumberg/0105-05/"
+		(property "Shop" "https://www.tme.eu/be/nl/details/adum4160brwz/geint-schakelingen-overige-interfaces/analog-devices/"
 			(at 133.35 105.41 0)
 			(effects
 				(font
@@ -3020,7 +3020,7 @@
 			(uuid "361db604-14f7-44cb-a7b0-0d529c33c69a")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
 					(reference "J18")
 					(unit 1)
@@ -3346,7 +3346,7 @@
 			(uuid "fb7b96f4-65a8-4245-9c54-17dc69f8c373")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/d13bbfa5-8e48-45fd-ac58-e4bf3e4f5b27"
 					(reference "#PWR078")
 					(unit 1)
@@ -3388,7 +3388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 99.06 101.6 0)
 			(effects
 				(font

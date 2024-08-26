@@ -2888,7 +2888,7 @@
 			(uuid "54c69d24-17bb-4760-b7d6-030e304e4944")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4"
 					(reference "#PWR012")
 					(unit 1)
@@ -3642,7 +3642,7 @@
 			(uuid "49ca6999-6ff2-4d5b-83dc-3fa50f40a029")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4"
 					(reference "#FLG02")
 					(unit 1)
@@ -3843,7 +3843,7 @@
 			(uuid "0832af59-51d9-4c5b-b489-c81d59e518c1")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4"
 					(reference "#FLG01")
 					(unit 1)

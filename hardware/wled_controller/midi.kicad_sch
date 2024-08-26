@@ -3179,7 +3179,7 @@
 				)
 			)
 		)
-		(property "Part" "57PC5F"
+		(property "Part" "0105 05"
 			(at 231.14 72.39 90)
 			(effects
 				(font
@@ -3188,7 +3188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Shop" "https://eu.mouser.com/ProductDetail/Switchcraft/57PC5F?qs=MW%252B0w7tSdpkWuZd7MBoFPA%3D%3D"
+		(property "Shop" "https://www.tme.eu/be/nl/details/0105-05/din-connectoren/lumberg/0105-05/"
 			(at 231.14 72.39 90)
 			(effects
 				(font
@@ -3216,7 +3216,7 @@
 			(uuid "b5a44bc0-982b-472e-bf98-888590a7084d")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/8072bd51-fbbd-46ff-a54c-8dc2320b0005"
 					(reference "J20")
 					(unit 1)
@@ -3377,7 +3377,7 @@
 			(uuid "5f1d0427-fcef-4d9f-bd03-28175384721b")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/8072bd51-fbbd-46ff-a54c-8dc2320b0005"
 					(reference "#PWR084")
 					(unit 1)
@@ -3643,7 +3643,7 @@
 				)
 			)
 		)
-		(property "Part" "57PC5F"
+		(property "Part" "0105 05"
 			(at 76.2 86.36 90)
 			(effects
 				(font
@@ -3652,7 +3652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Shop" "https://eu.mouser.com/ProductDetail/Switchcraft/57PC5F?qs=MW%252B0w7tSdpkWuZd7MBoFPA%3D%3D"
+		(property "Shop" "https://www.tme.eu/be/nl/details/0105-05/din-connectoren/lumberg/0105-05/"
 			(at 76.2 86.36 90)
 			(effects
 				(font
@@ -3786,7 +3786,7 @@
 			(uuid "cc04d30d-03d8-402b-8fce-585961bbee02")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/8072bd51-fbbd-46ff-a54c-8dc2320b0005"
 					(reference "U8")
 					(unit 1)
@@ -4221,7 +4221,7 @@
 			(uuid "6a0c07e7-a50c-4d08-a0a3-c43d3545f612")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/8072bd51-fbbd-46ff-a54c-8dc2320b0005"
 					(reference "D3")
 					(unit 1)

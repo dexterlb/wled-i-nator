@@ -4197,7 +4197,7 @@
 			(uuid "d1c3d9f3-5241-4e47-b0ea-e874fe21deec")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
 					(reference "J21")
 					(unit 1)
@@ -4467,6 +4467,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "R 10Ω 125mW 5% 0805"
+			(at 201.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51cc1fc7-06ec-4b40-8b6c-0eb4d9c85e34")
 		)
@@ -4537,6 +4546,15 @@
 			)
 		)
 		(property "Shop" "https://store.comet.bg/Catalogue/Product/46888/"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SM712"
 			(at 201.93 116.84 0)
 			(effects
 				(font
@@ -4682,7 +4700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" " PAD001-T764120S"
+		(property "Part" "PAD001-T764120S"
 			(at 105.41 80.01 0)
 			(effects
 				(font
@@ -4727,7 +4745,7 @@
 			(uuid "2c900b23-4cbf-4e0e-a67a-64225d596b68")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
 					(reference "TR1")
 					(unit 1)
@@ -4928,7 +4946,7 @@
 			(uuid "08724278-7e1e-49f6-868c-66d49f1c5eb3")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
 					(reference "#PWR095")
 					(unit 1)
@@ -5017,7 +5035,7 @@
 			(uuid "fdb9b78d-fbe1-4319-b4bf-f8696c8e0b3c")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
 					(reference "J22")
 					(unit 1)
@@ -5144,7 +5162,7 @@
 			(uuid "f247f97e-0297-48c6-a039-42e62aa8e212")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
 					(reference "U9")
 					(unit 1)
@@ -5236,7 +5254,7 @@
 			(uuid "3427752b-f980-469f-a22b-20bfd1c43c9c")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
 					(reference "D4")
 					(unit 1)
@@ -5306,6 +5324,15 @@
 			)
 		)
 		(property "Shop" "https://store.comet.bg/Catalogue/Product/29580/"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "R 10Ω 125mW 5% 0805"
 			(at 201.93 124.46 0)
 			(effects
 				(font
@@ -5417,7 +5444,7 @@
 			(uuid "68389005-f5a9-4c41-bc67-a79c853d73c8")
 		)
 		(instances
-			(project ""
+			(project "wled_controller"
 				(path "/67a034fd-c582-46b2-83e2-3de9f5f70ac4/ded7ca3b-172a-4291-b42a-ac8e31eb8d0c"
 					(reference "U10")
 					(unit 1)
